@@ -69,3 +69,30 @@ body {
   .expense-amount {
     color: #27ae60;
   }
+
+  p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  .total-expense {
+    display: flex;
+    justify-content: space-between; /* Space between h3 and p */
+    align-items: center; /* Align items vertically */
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid #ddd; /* Optional: Separator */
+  }
+  
+  .total-expense h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #2c3e50;
+  }
+  
+  .total-expense p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+  }
